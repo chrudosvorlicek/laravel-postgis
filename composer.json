@@ -1,12 +1,18 @@
 {
   "name": "mstaack/laravel-postgis",
   "description": "Postgis extensions for laravel. Aims to make it easy to work with geometries from laravel models",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/chrudosvorlicek/database"
+    }
+  ],
   "require": {
     "php": ">=7.1",
     "illuminate/database": "^6.0|^7.0|^8.0",
     "geo-io/wkb-parser": "^1.0",
     "jmikola/geojson": "^1.0",
-    "bosnadev/database": "0.20.*"
+    "bosnadev/database": "dev-master"
   },
   "require-dev": {
     "illuminate/pagination": "^6.0|^7.0|^8.0",
